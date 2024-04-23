@@ -1,0 +1,35 @@
+.flex-container {
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    min-width: 320px;
+}
+
+footer {
+    background-color: #122A57;
+    height: fit-content;
+}
+
+footer .footer {
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 110px;
+}
+
+footer p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.group-details {
+    display: flex;
+    gap: 18px;
+}
+
+@media(max-width: 992px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
